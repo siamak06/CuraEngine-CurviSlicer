@@ -1,0 +1,170 @@
+{
+    "version": 2,
+    "name": "CurviSlicer Generic",
+    "inherits": "fdmprinter",
+    "metadata": {
+        "visible": true,
+        "author": "CurviSlicer",
+        "manufacturer": "Generic",
+        "file_formats": "text/x-gcode",
+        "platform": "curvislicer_platform.stl"
+    },
+    "overrides": {
+        "machine_name": {
+            "default_value": "CurviSlicer Generic"
+        },
+        "machine_width": {
+            "default_value": 220
+        },
+        "machine_depth": {
+            "default_value": 220
+        },
+        "machine_height": {
+            "default_value": 240
+        },
+        "machine_heated_bed": {
+            "default_value": true
+        },
+        "machine_center_is_zero": {
+            "default_value": false
+        },
+        "machine_nozzle_size": {
+            "default_value": 0.4
+        },
+        "material_diameter": {
+            "default_value": 1.75
+        },
+        "layer_height": {
+            "default_value": 0.2,
+            "minimum_value": 0.01,
+            "maximum_value": 10.0
+        },
+        "layer_height_0": {
+            "default_value": 0.2
+        },
+        "line_width": {
+            "default_value": 0.4
+        },
+        "wall_line_width": {
+            "default_value": 0.4
+        },
+        "wall_thickness": {
+            "default_value": 0.8
+        },
+        "wall_line_count": {
+            "default_value": 2
+        },
+        "top_bottom_thickness": {
+            "default_value": 0.8
+        },
+        "top_layers": {
+            "default_value": 4
+        },
+        "bottom_layers": {
+            "default_value": 4
+        },
+        "infill_sparse_density": {
+            "default_value": 20
+        },
+        "infill_pattern": {
+            "default_value": "lines"
+        },
+        "speed_print": {
+            "default_value": 50,
+            "minimum_value": 5,
+            "maximum_value": 80
+        },
+        "speed_wall": {
+            "default_value": 30
+        },
+        "speed_wall_0": {
+            "default_value": 25
+        },
+        "speed_topbottom": {
+            "default_value": 30
+        },
+        "speed_infill": {
+            "default_value": 50
+        },
+        "speed_travel": {
+            "default_value": 80
+        },
+        "speed_layer_0": {
+            "default_value": 10
+        },
+        "speed_print_layer_0": {
+            "default_value": 10
+        },
+        "material_bed_temperature": {
+            "default_value": 50,
+            "minimum_value": 0,
+            "maximum_value": 120
+        },
+        "material_print_temperature": {
+            "default_value": 210,
+            "minimum_value": 150,
+            "maximum_value": 270
+        },
+        "retraction_enable": {
+            "default_value": true
+        },
+        "retraction_amount": {
+            "default_value": 4.0
+        },
+        "retraction_speed": {
+            "default_value": 40,
+            "maximum_value_warning": 80
+        },
+        "skirt_line_count": {
+            "default_value": 0
+        },
+        "skirt_gap": {
+            "default_value": 3
+        },
+        "adhesion_type": {
+            "default_value": "none"
+        },
+        "brim_line_count": {
+            "default_value": 0
+        },
+        "raft_margin": {
+            "default_value": 0
+        },
+        "support_enable": {
+            "default_value": false
+        },
+        "cool_fan_enabled": {
+            "default_value": true
+        },
+        "cool_fan_speed": {
+            "default_value": 100
+        },
+        "cool_min_layer_time": {
+            "default_value": 5
+        },
+        "meshfix_maximum_resolution": {
+            "default_value": 0.01
+        },
+        "meshfix_maximum_travel_resolution": {
+            "default_value": 0.01
+        },
+        "gcode_flavor": {
+            "default_value": "RepRap (Marlin/Sprinter)"
+        },
+        "machine_start_gcode": {
+            "default_value": ""
+        },
+        "machine_end_gcode": {
+            "default_value": ""
+        },
+        "acceleration_enabled": {
+            "default_value": false
+        },
+        "jerk_enabled": {
+            "default_value": false
+        },
+        "relative_extrusion": {
+            "default_value": false
+        }
+    }
+}

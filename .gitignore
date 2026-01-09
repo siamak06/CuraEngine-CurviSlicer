@@ -1,0 +1,92 @@
+
+# Create .gitignore
+nano .gitignore
+```
+
+**Paste this content:**
+```
+# Build artifacts
+build/
+*.o
+*.so
+*.a
+
+# Generated files
+*_CURVED.gcode
+*_curaengine.gcode
+*_converted.gcode
+*.msh
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Cura extraction
+squashfs-root/
+
+# Test outputs
+test_*.gcode
+backup_*/
+
+# Temporary files
+*.tmp
+*.log
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+bin/
+build/
+lib/
+
+*.gcode
+*.msh
+*.csv
+
+models/
+!models/**.stl
+
+settings.lua
+# Additional ignores for GitHub repository
+
+# Generated curved G-code files
+*_CURVED.gcode
+*_curaengine.gcode
+*_converted.gcode
+*_converted/
+
+# Tetrahedral mesh intermediate files
+__mid*.msh
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Cura AppImage extraction
+squashfs-root/
+
+# Test outputs and backups
+test_*.gcode
+backup_*/
+
+# Temporary files
+*.tmp
+*.log
+*~
+*.swp
+
+# OS-specific files
+.DS_Store      # macOS
+Thumbs.db      # Windows
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# Archive files (don't need in repo)
+*.tar.gz
+*.zip
+github-token.txt
