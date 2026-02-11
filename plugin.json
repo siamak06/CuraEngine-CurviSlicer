@@ -1,0 +1,9 @@
+{
+    "name": "CurviSlicer Integration",
+    "author": "Sia (based on CurviSlicer by Etienne, Lefebvre et al.)",
+    "version": "1.0.0",
+    "description": "Non-planar curved layer slicing for improved surface quality and accuracy. Integrates CurviSlicer optimization into Cura workflow.",
+    "api": 8,
+    "supported_sdk_versions": ["8.0.0", "8.1.0", "8.2.0"],
+    "i18n-catalog": "cura"
+}
